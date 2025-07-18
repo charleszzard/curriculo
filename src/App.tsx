@@ -4,7 +4,7 @@ import { DownloadButton } from "./components/DownloadButton";
 
 function App() {
   return (
-    <main className="max-w-4xl mx-auto px-6 py-10 font-sans text-gray-900">
+    <main className="w-full max-w-4xl mx-auto px-4 sm:px-6 py-10 font-sans text-gray-900">
       <Header />
 
       <Section title="Objetivo">

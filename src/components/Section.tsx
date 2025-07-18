@@ -13,7 +13,7 @@ export const Section = ({ title, children }: SectionProps) => (
     transition={{ duration: 0.5 }}
     viewport={{ once: true }}
   >
-    <h2 className="text-xl font-semibold border-b border-gray-300 mb-2">{title}</h2>
-    <div className="text-sm text-gray-800 leading-relaxed">{children}</div>
+    <h2 className="text-lg sm:text-xl font-semibold border-b border-gray-300 mb-2">{title}</h2>
+<div className="text-sm sm:text-base text-gray-800 leading-relaxed">{children}</div>
   </motion.section>
 );
